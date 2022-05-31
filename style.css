@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+.row{
+    border: 1px;
+    background-color: rgb(182, 192, 206);
+
+}
+.navbar{
+    top: 0;
+
+    position: sticky;
+    overflow: hidden;
+    height: 20%;
+    background-color: rgb(21, 62, 78);
+}
+.navbar a {
+    font-size: 18px;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: red;
+}
+
+.columnleft{
+    width: 20%;
+    min-height: 500px;
+    background-color: rgb(182, 192, 206);
+    float: left;
+
+}
+.columnmain{
+    
+    float: right;
+    width: 80%;
+    min-height: 500px;
+    background-color: rgb(156, 197, 235);
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+.footer{
+    text-align: center;
+    background-color: rgb(69, 73, 69);
+    padding: 10px;
+}
+.header{
+    text-align: center;
+    padding: 24px 100px;
+}
+.content{
+    font-size: 20px;
+    padding: 24px 100px;
+}
+.content-header{
+   font-size: 21px;
+}
+.leftheader{
+    padding: 32px 0px;
+}
+.columnleft a{
+    color: darkslategray;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 16px 16px ;
+    display: block;
+    text-align: center;
+}
+.active-header{
+    background-color: #4daccb;
+}
+table {
+
+    width: 45%;
+    border-collapse: collapse;
+}
+tr {
+    border: 1px solid rgba(54, 122, 211, 0.692);
+
+}
+td{
+    width: 50%;
+    border: 1px solid rgba(54, 122, 211, 0.692);
+
+    text-align: center;
+
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.clearfix img{
+    padding-bottom: 12px;
+    padding-right: 12px;
+    float: left;
+}
+.clearfix p{
+    padding-top: 8px;
+}
+.blink{
+    animation: blinker 1.5s linear infinite;
+    color: yellow !important;
+}
+/* yanip sonen buton animasyonu*/
+ @keyframes blinker {  
+    50% { opacity: 0; }
+}
+

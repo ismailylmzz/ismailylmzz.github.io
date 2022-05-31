@@ -1,0 +1,83 @@
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+.main {
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 0 20px;
+    min-width: 60%;
+    min-height: 750px; 
+    background-color: #a8cde3;
+}
+.title {
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+}
+table{
+
+    align-content: center;
+    border-collapse: collapse;
+    padding: 30px;
+    font-size: 18px;
+    width: 100%;
+}
+.bilgiler {
+    padding-top: 50px;
+}
+
+tr{
+    padding: 20px;
+    height: 50;
+    border-bottom: 1px solid #ddd;
+}
+td { 
+
+    padding: 30px 80px;
+}
+tr:hover {background-color: #299ad3;}
+
+.buton-field{
+    padding-top: 50px;
+    height: 100px;
+    text-align: center;
+
+}
+
+.buton {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 20px;
+    min-width: 100px;
+    min-height: 50px;
+    background-color: red ;
+    display: inline-block;
+}
+.dersler {
+    height: 60px;
+    padding: 20px;
+    text-align: center;
+}
+.dersler a {
+    color: white;
+    margin: 10px 30px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(233, 54, 54);
+    text-decoration: none;
+}
+.homepage {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    min-width: 120px;
+
+    border-radius: 20px;
+    height: 40px;
+    background-color: red ;
+    display: inline-block;
+}
